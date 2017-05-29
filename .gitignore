@@ -1,0 +1,6 @@
+*.metadata
+assignment2/.metadata
+assignment2/.recommenders/
+assignment2/NYSE/
+assignment2/ratings.csv
+assignment2/users.csv
