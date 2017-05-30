@@ -1,7 +1,7 @@
 var mapFunction1 = function() {
     var value = {
         count: 1,
-        sum: this.stock_price_high
+        sum: (this.stock_price_high+this.stock_price_open+this.stock_price_low+this.stock_price_close+this.stock_price_adj_close)/5
     };
     emit(this.stock_symbol, value);
 };
